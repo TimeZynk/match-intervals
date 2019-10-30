@@ -4,7 +4,7 @@
   "description": "Programming assignment",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js < input-data.txt"
+    "start": "node src/index.js < sample-data.txt"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TimeZynk/match-intervals#readme",
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "ramda":"^0.21.0"
   }
 }
